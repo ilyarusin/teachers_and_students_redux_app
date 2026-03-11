@@ -27,7 +27,9 @@ const router = createBrowserRouter([{ path: '/', element: <Root />, children: [
 		path: '/teachers/:teacherId',
 		element: <TeacherPage />
 	}
-] }]);
+] }], {
+	basename: '/teachers_and_students_redux_app'
+});
 
 function App() {
 	return <RouterProvider router={router} />
