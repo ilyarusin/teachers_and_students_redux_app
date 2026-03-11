@@ -1,0 +1,87 @@
+body {
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	cursor: pointer;
+}
+
+#main {
+	display: flex;
+	margin: 20px;
+}
+
+#menu {
+	margin-right: 50px;
+	padding-top: 50px;
+	padding-right: 50px;
+	border-right: 2px solid lightgray;
+	font-weight: bold;
+}
+
+#main-page {
+	max-width: 600px;
+}
+
+select,
+textarea,
+input,
+button {
+	font-size: 18px;
+}
+
+form {
+	margin-bottom: 20px;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 10px;
+}
+
+form p {
+	margin: 5px;
+}
+
+.students-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-excerpt {
+	margin-top: 30px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.link-btn {
+	border: 1.5px solid gray;
+	border-radius: 10px;
+	background-color: coral;
+	color: black;
+	padding: 1px 12px 1px 12px;
+}
+
+.voting-button {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+nav a.active {
+	color: purple;
+}
