@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ilyarusin.github.io/teachers_and_students_redux_app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
